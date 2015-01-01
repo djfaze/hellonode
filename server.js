@@ -2,7 +2,7 @@ var express = require('express');
 var app = express();
 
 app.get('/', function(req, res){
-    res.send('Happy 2015 folks!');
+    res.send('Happy New Year folks! 2015 is almost here');
 });
 
 app.listen(80);
