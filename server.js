@@ -6,4 +6,5 @@ app.get('/', function(req, res){
     res.send('Anton8');
 });
 
+console.log('started')
 app.listen(80);
