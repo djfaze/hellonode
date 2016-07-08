@@ -1,0 +1,3 @@
+FROM ubuntu
+RUN date
+CMD date
