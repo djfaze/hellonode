@@ -12,10 +12,6 @@ jobs:
     steps:
       - name: Checkout this repo
         uses: actions/checkout@v3
-        
-      - name: echo secrets
-        run: echo "${{ vars.BASE_URL }} xxx ${{ secrets.README_MICRO_SECRET }}"
-      
       # Run GitHub Action to sync all OpenAPI files in the repo
       - name: GitHub Action
         uses: readmeio/readme-micro@v2
